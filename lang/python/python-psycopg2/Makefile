@@ -36,13 +36,13 @@ endef
 define Package/python-psycopg2
 $(call Package/python-psycopg2/Default)
   TITLE:=PostgreSQL database adapter for Python
-  DEPENDS:=+PACKAGE_python-psycopg2:python +PACKAEG_python-psycopg2:python-egenix-mx-base
+  DEPENDS:=+PACKAGE_python-psycopg2:python +PACKAGE_python-psycopg2:python-egenix-mx-base
 endef
 
 define Package/python3-psycopg2
 $(call Package/python-psycopg2/Default)
   TITLE:=PostgreSQL database adapter for Python3
-  DEPENDS:=+PACKAGE_python3-psycopg2:python3 +PACKAEG_python3-psycopg2:python3-egenix-mx-base
+  DEPENDS:=+PACKAGE_python3-psycopg2:python3 +PACKAGE_python3-psycopg2:python3-egenix-mx-base
 endef
 
 define Package/python-psycopg2/description
