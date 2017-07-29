@@ -63,4 +63,4 @@ endef
 $(eval $(call PyPackage,python-egenix-mx-base))
 $(eval $(call BuildPackage,python-egenix-mx-base))
 $(eval $(call Py3Package,python3-egenix-mx-base))
-$(eval $(call Build3Package,python3-egenix-mx-base))
+$(eval $(call BuildPackage,python3-egenix-mx-base))

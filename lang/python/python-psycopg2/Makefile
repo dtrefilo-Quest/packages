@@ -79,4 +79,4 @@ endef
 $(eval $(call PyPackage,python-psycopg2))
 $(eval $(call BuildPackage,python-psycopg2))
 $(eval $(call Py3Package,python3-psycopg2))
-$(eval $(call Build3Package,python3-psycopg2))
+$(eval $(call BuildPackage,python3-psycopg2))
